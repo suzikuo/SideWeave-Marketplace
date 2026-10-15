@@ -1,15 +1,23 @@
-# SideWeave Marketplace repository
+# SideWeave Marketplace
 
-This directory is the starter content for the separate public repository `suzikuo/sideweave-marketplace`. Copy its contents to that repository's root when creating it. The app reads the two JSON files from the repository's `main` branch using fixed raw GitHub URLs.
+This repository is the public catalog for SideWeave. The app reads marketplace.json and publishers.json from the master branch using fixed raw GitHub URLs.
 
-## Files and rules
+## Catalog rules
 
-- `marketplace.json` is the public catalog. Every item has a `latest` string pointing to one entry in `versions`; clients do not calculate the newest version.
-- `publishers.json` contains publisher key IDs, Minisign public keys and key states (`active`, `retired`, `revoked`).
-- Each version provides exact HTTPS URLs for the ZIP, `.minisig` and `.sha256` assets. `repository` is display metadata; the app never derives download URLs from it.
-- Unknown `schema_version` values, missing latest pointers, unknown publishers and malformed assets fail validation.
-- `verified: true` means the catalog entry was reviewed by the marketplace maintainers. It is not a security guarantee.
+- marketplace.json is the public catalog. Each item has a latest string pointing to an entry in versions; clients do not calculate the newest version.
+- publishers.json contains publisher key IDs, Minisign public keys and key states: active, retired or revoked.
+- Every version provides exact HTTPS URLs for the ZIP, .minisig and .sha256 assets. The repository field is display metadata; clients never derive download URLs from it.
+- Unknown schema versions, missing latest pointers, unknown publishers and malformed assets fail validation.
+- verified: true means maintainers reviewed the catalog entry. It is not a security guarantee.
 
-Before adding official native packages, generate a dedicated SideWeave plugin signing key, add its public key here, and set the matching public key's base64 payload (without its `.pub` comment line) as the GitHub Actions repository variable `SIDEWEAVE_OFFICIAL_PUBLISHER_KEY` in `sidebar-tauri`. The app pins that value at build time; this public key is separate from the Tauri updater key.
+The SideWeave app release script reads the official publisher key from this repository's publishers.json and pins it into the app. The publisher key is separate from the Tauri updater key. Native packages, including official plugins, require first-use publisher trust confirmation in the app.
 
-Pull requests run the static validator in `.github/workflows/validate.yml`. It downloads package assets, verifies checksums and Minisign signatures, checks package manifests, and never executes plugin code.
+## Validate locally
+
+Run the validator before pushing marketplace changes. Set MINISIGN_EXE to the path of minisign.exe, then run:
+
+    $env:MINISIGN_EXE = 'F:\path\to\minisign.exe'
+    python .\tools\validate_marketplace.py
+    Remove-Item Env:MINISIGN_EXE
+
+The validator downloads referenced assets, checks checksums and Minisign signatures, checks package manifests, and never executes plugin code.

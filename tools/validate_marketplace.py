@@ -1,6 +1,7 @@
 #!/usr/bin/env python3
 import hashlib
 import json
+import os
 import re
 import subprocess
 import tempfile
@@ -111,7 +112,8 @@ def validate() -> None:
                     if expected_hash != actual_hash:
                         raise ValueError(f"SHA256 mismatch for {item_id}@{number}")
                     write_public_key(key["public_key"], public_key, item["publisher"], key_id)
-                    subprocess.run(["minisign", "-Vm", str(archive), "-x", str(signature), "-p", str(public_key)], check=True)
+                    minisign = os.environ.get("MINISIGN_EXE", "minisign")
+                    subprocess.run([minisign, "-Vm", str(archive), "-x", str(signature), "-p", str(public_key)], check=True)
                     with zipfile.ZipFile(archive) as package:
                         manifest = json.loads(package.read("manifest.json"))
                     expected = {
