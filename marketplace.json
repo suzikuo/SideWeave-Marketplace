@@ -1,394 +1,398 @@
 {
-    "schema_version": 1,
-    "updated_at": "2026-10-14T10:20:26Z",
-    "plugins": [
-        {
-            "id": "app_launcher",
-            "name": "App Launcher",
-            "description": "应用启动器：快速启动本地应用与 Chrome 应用窗口",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.4",
-            "capabilities": [
-                "storage",
-                "filesystem.read",
-                "process.spawn",
-                "system.file_picker",
-                "system.icon"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.4",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-app_launcher-v1.0.4",
-                        "asset": "app_launcher-1.0.4.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-app_launcher-v1.0.4/app_launcher-1.0.4.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-app_launcher-v1.0.4/app_launcher-1.0.4.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-app_launcher-v1.0.4/app_launcher-1.0.4.zip.sha256"
+    "schema_version":  1,
+    "updated_at":  "2026-10-15T06:15:37Z",
+    "plugins":  [
+                    {
+                        "id":  "app_launcher",
+                        "name":  "App Launcher",
+                        "description":  "应用启动器：快速启动本地应用与 Chrome 应用窗口",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.4",
+                        "capabilities":  [
+                                             "storage",
+                                             "filesystem.read",
+                                             "process.spawn",
+                                             "system.file_picker",
+                                             "system.icon"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.4",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-app_launcher-v1.0.4",
+                                                             "asset":  "app_launcher-1.0.4.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-app_launcher-v1.0.4/app_launcher-1.0.4.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-app_launcher-v1.0.4/app_launcher-1.0.4.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-app_launcher-v1.0.4/app_launcher-1.0.4.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "cloudflare_tunnel",
+                        "name":  "Cloudflare Tunnel",
+                        "description":  "SideWeave 本地 Cloudflare Tunnel 快速管理器",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.8",
+                        "capabilities":  [
+                                             "storage",
+                                             "filesystem.read",
+                                             "filesystem.write",
+                                             "system.file_picker",
+                                             "process.spawn",
+                                             "system.open_external",
+                                             "network.connect"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.8",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-cloudflare_tunnel-v1.0.8",
+                                                             "asset":  "cloudflare_tunnel-1.0.8.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-cloudflare_tunnel-v1.0.8/cloudflare_tunnel-1.0.8.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-cloudflare_tunnel-v1.0.8/cloudflare_tunnel-1.0.8.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-cloudflare_tunnel-v1.0.8/cloudflare_tunnel-1.0.8.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "ssh_manager",
+                        "name":  "SSH",
+                        "description":  "SSH profile management, key storage, terminal launch, and connectivity checks",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.7",
+                        "capabilities":  [
+                                             "storage",
+                                             "filesystem.read",
+                                             "filesystem.write",
+                                             "filesystem.external_read",
+                                             "system.file_picker",
+                                             "network.connect",
+                                             "process.spawn"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.7",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-ssh_manager-v1.0.7",
+                                                             "asset":  "ssh_manager-1.0.7.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ssh_manager-v1.0.7/ssh_manager-1.0.7.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ssh_manager-v1.0.7/ssh_manager-1.0.7.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ssh_manager-v1.0.7/ssh_manager-1.0.7.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "notes",
+                        "name":  "便签",
+                        "description":  "桌面便签：文本便签与任务清单小窗",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.5",
+                        "capabilities":  [
+                                             "storage",
+                                             "window.create",
+                                             "window.manage",
+                                             "event.publish"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.5",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-notes-v1.0.5",
+                                                             "asset":  "notes-1.0.5.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-notes-v1.0.5/notes-1.0.5.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-notes-v1.0.5/notes-1.0.5.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-notes-v1.0.5/notes-1.0.5.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "port_forward",
+                        "name":  "端口工具",
+                        "description":  "本地 TCP 转发规则、端口占用与进程管理",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.7",
+                        "capabilities":  [
+                                             "storage",
+                                             "network.listen",
+                                             "network.connect"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.7",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-port_forward-v1.0.7",
+                                                             "asset":  "port_forward-1.0.7.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-port_forward-v1.0.7/port_forward-1.0.7.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-port_forward-v1.0.7/port_forward-1.0.7.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-port_forward-v1.0.7/port_forward-1.0.7.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "toolbox",
+                        "name":  "工具箱",
+                        "description":  "开发小工具：JSON/Base64/时间戳/UUID/正则",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.3",
+                        "capabilities":  [
+                                             "filesystem.read",
+                                             "system.file_picker"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.3",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-toolbox-v1.0.3",
+                                                             "asset":  "toolbox-1.0.3.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-toolbox-v1.0.3/toolbox-1.0.3.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-toolbox-v1.0.3/toolbox-1.0.3.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-toolbox-v1.0.3/toolbox-1.0.3.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "clipboard",
+                        "name":  "剪贴板",
+                        "description":  "剪贴板历史：自动记录文本、搜索、一键复制",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.4",
+                        "capabilities":  [
+                                             "storage",
+                                             "clipboard"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.4",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-clipboard-v1.0.4",
+                                                             "asset":  "clipboard-1.0.4.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-clipboard-v1.0.4/clipboard-1.0.4.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-clipboard-v1.0.4/clipboard-1.0.4.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-clipboard-v1.0.4/clipboard-1.0.4.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "screenshot",
+                        "name":  "快捷截图",
+                        "description":  "桌面截图与区域录制：滚动长截图、标注、OCR、贴图、动画 WebP 与 GIF 导出",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "0.3.7",
+                        "capabilities":  [
+                                             "filesystem.write",
+                                             "shortcut.global",
+                                             "clipboard",
+                                             "network.connect",
+                                             "storage"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "0.3.7",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-screenshot-v0.3.7",
+                                                             "asset":  "screenshot-0.3.7.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.7/screenshot-0.3.7.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.7/screenshot-0.3.7.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.7/screenshot-0.3.7.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "time",
+                        "name":  "时钟",
+                        "description":  "时钟、闹钟、悬浮钟和番茄钟",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.23",
+                        "capabilities":  [
+                                             "storage",
+                                             "window.create",
+                                             "window.manage",
+                                             "event.publish",
+                                             "notification.desktop",
+                                             "notification.sidebar"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.23",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-time-v1.0.23",
+                                                             "asset":  "time-1.0.23.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-time-v1.0.23/time-1.0.23.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-time-v1.0.23/time-1.0.23.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-time-v1.0.23/time-1.0.23.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "thiefbook",
+                        "name":  "书架",
+                        "description":  "TXT reading shelf with floating reader and progress tracking",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.17",
+                        "capabilities":  [
+                                             "storage",
+                                             "filesystem.read",
+                                             "filesystem.external_read",
+                                             "window.create",
+                                             "window.manage",
+                                             "shortcut.global",
+                                             "system.file_picker"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.17",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-thiefbook-v1.0.17",
+                                                             "asset":  "thiefbook-1.0.17.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-thiefbook-v1.0.17/thiefbook-1.0.17.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-thiefbook-v1.0.17/thiefbook-1.0.17.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-thiefbook-v1.0.17/thiefbook-1.0.17.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "bookmarks",
+                        "name":  "书签",
+                        "description":  "书签：标签化收藏、极速检索、一键直达",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.6",
+                        "capabilities":  [
+                                             "storage",
+                                             "system.open_external"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.6",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-bookmarks-v1.0.6",
+                                                             "asset":  "bookmarks-1.0.6.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-bookmarks-v1.0.6/bookmarks-1.0.6.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-bookmarks-v1.0.6/bookmarks-1.0.6.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-bookmarks-v1.0.6/bookmarks-1.0.6.zip.sha256"
+                                                         }
+                                         }
+                                     ]
                     }
-                }
-            ]
-        },
-        {
-            "id": "cloudflare_tunnel",
-            "name": "Cloudflare Tunnel",
-            "description": "cloudflared Tunnel 生命周期与 ingress 配置管理",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.8",
-            "capabilities": [
-                "storage",
-                "filesystem.read",
-                "filesystem.write",
-                "system.file_picker",
-                "process.spawn",
-                "system.open_external",
-                "network.connect"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.8",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-cloudflare_tunnel-v1.0.8",
-                        "asset": "cloudflare_tunnel-1.0.8.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-cloudflare_tunnel-v1.0.8/cloudflare_tunnel-1.0.8.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-cloudflare_tunnel-v1.0.8/cloudflare_tunnel-1.0.8.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-cloudflare_tunnel-v1.0.8/cloudflare_tunnel-1.0.8.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "ssh_manager",
-            "name": "SSH",
-            "description": "SSH 会话管理：分组收藏、连通性测试、终端直达",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.7",
-            "capabilities": [
-                "storage",
-                "filesystem.read",
-                "filesystem.write",
-                "filesystem.external_read",
-                "system.file_picker",
-                "network.connect",
-                "process.spawn"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.7",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-ssh_manager-v1.0.7",
-                        "asset": "ssh_manager-1.0.7.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-ssh_manager-v1.0.7/ssh_manager-1.0.7.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-ssh_manager-v1.0.7/ssh_manager-1.0.7.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-ssh_manager-v1.0.7/ssh_manager-1.0.7.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "notes",
-            "name": "便签",
-            "description": "桌面便签：文本便签与任务清单小窗，勾选完成、历史可恢复",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.5",
-            "capabilities": [
-                "storage",
-                "window.create",
-                "window.manage",
-                "event.publish"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.5",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-notes-v1.0.5",
-                        "asset": "notes-1.0.5.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-notes-v1.0.5/notes-1.0.5.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-notes-v1.0.5/notes-1.0.5.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-notes-v1.0.5/notes-1.0.5.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "port_forward",
-            "name": "端口转发",
-            "description": "本地 TCP 端口转发规则管理与一键启停",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.7",
-            "capabilities": [
-                "storage",
-                "network.listen",
-                "network.connect"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.7",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-port_forward-v1.0.7",
-                        "asset": "port_forward-1.0.7.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-port_forward-v1.0.7/port_forward-1.0.7.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-port_forward-v1.0.7/port_forward-1.0.7.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-port_forward-v1.0.7/port_forward-1.0.7.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "toolbox",
-            "name": "工具箱",
-            "description": "开发小工具：JSON/Base64/时间戳/UUID/正则",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.3",
-            "capabilities": [
-                "filesystem.read",
-                "system.file_picker"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.3",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-toolbox-v1.0.3",
-                        "asset": "toolbox-1.0.3.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-toolbox-v1.0.3/toolbox-1.0.3.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-toolbox-v1.0.3/toolbox-1.0.3.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-toolbox-v1.0.3/toolbox-1.0.3.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "clipboard",
-            "name": "剪贴板",
-            "description": "剪贴板历史：自动记录文本、搜索、一键复制",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.4",
-            "capabilities": [
-                "storage",
-                "clipboard"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.4",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-clipboard-v1.0.4",
-                        "asset": "clipboard-1.0.4.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-clipboard-v1.0.4/clipboard-1.0.4.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-clipboard-v1.0.4/clipboard-1.0.4.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-clipboard-v1.0.4/clipboard-1.0.4.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "screenshot",
-            "name": "快捷截图",
-            "description": "桌面截图与区域录制：滚动长截图、标注、OCR、贴图、动画 WebP 与 GIF 导出",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "0.3.7",
-            "capabilities": [
-                "filesystem.write",
-                "shortcut.global",
-                "clipboard",
-                "network.connect",
-                "storage"
-            ],
-            "versions": [
-                {
-                    "version": "0.3.7",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-screenshot-v0.3.7",
-                        "asset": "screenshot-0.3.7.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-screenshot-v0.3.7/screenshot-0.3.7.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-screenshot-v0.3.7/screenshot-0.3.7.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-screenshot-v0.3.7/screenshot-0.3.7.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "time",
-            "name": "时钟",
-            "description": "时钟与闹钟：桌面悬浮钟、闹钟管理与倒计时提醒",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.23",
-            "capabilities": [
-                "storage",
-                "window.create",
-                "window.manage",
-                "event.publish",
-                "notification.desktop",
-                "notification.sidebar"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.23",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-time-v1.0.23",
-                        "asset": "time-1.0.23.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-time-v1.0.23/time-1.0.23.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-time-v1.0.23/time-1.0.23.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-time-v1.0.23/time-1.0.23.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "thiefbook",
-            "name": "书架",
-            "description": "桌面悬浮 txt 阅读器：字符锚点进度、一键隐身",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.17",
-            "capabilities": [
-                "storage",
-                "filesystem.read",
-                "filesystem.external_read",
-                "window.create",
-                "window.manage",
-                "shortcut.global",
-                "system.file_picker"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.17",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-thiefbook-v1.0.17",
-                        "asset": "thiefbook-1.0.17.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-thiefbook-v1.0.17/thiefbook-1.0.17.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-thiefbook-v1.0.17/thiefbook-1.0.17.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-thiefbook-v1.0.17/thiefbook-1.0.17.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "bookmarks",
-            "name": "书签",
-            "description": "书签：标签化收藏、极速检索、一键直达",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "native",
-            "repository": "https://github.com/suzikuo/SideWeave-Plugins",
-            "verified": true,
-            "latest": "1.0.6",
-            "capabilities": [
-                "storage",
-                "system.open_external"
-            ],
-            "versions": [
-                {
-                    "version": "1.0.6",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "plugin-bookmarks-v1.0.6",
-                        "asset": "bookmarks-1.0.6.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-bookmarks-v1.0.6/bookmarks-1.0.6.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-bookmarks-v1.0.6/bookmarks-1.0.6.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/plugin-bookmarks-v1.0.6/bookmarks-1.0.6.zip.sha256"
-                    }
-                }
-            ]
-        }
-    ],
-    "skins": [
-        {
-            "id": "minecraft",
-            "name": "像素",
-            "description": "方块化像素风格，包含独立配色、字体栈、界面样式和背景图。",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "skin",
-            "repository": "https://github.com/suzikuo/SideWeave",
-            "verified": true,
-            "latest": "1.0.5",
-            "capabilities": [],
-            "versions": [
-                {
-                    "version": "1.0.5",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "skin-minecraft-v1.0.5",
-                        "asset": "minecraft-1.0.5.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/skin-minecraft-v1.0.5/minecraft-1.0.5.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/skin-minecraft-v1.0.5/minecraft-1.0.5.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/skin-minecraft-v1.0.5/minecraft-1.0.5.zip.sha256"
-                    }
-                }
-            ]
-        },
-        {
-            "id": "stellar-abyss",
-            "name": "深空回响",
-            "description": "以星海、深空航行与全息界面为灵感的完整科幻 UI 皮肤。",
-            "author": "SideWeave",
-            "publisher": "sideweave",
-            "type": "skin",
-            "repository": "https://github.com/suzikuo/SideWeave",
-            "verified": true,
-            "latest": "1.0.12",
-            "capabilities": [],
-            "versions": [
-                {
-                    "version": "1.0.12",
-                    "key_id": "main-2026-rotation-1",
-                    "release": {
-                        "tag": "skin-stellar-abyss-v1.0.12",
-                        "asset": "stellar-abyss-1.0.12.zip",
-                        "url": "https://github.com/suzikuo/SideWeave/releases/download/skin-stellar-abyss-v1.0.12/stellar-abyss-1.0.12.zip",
-                        "signature_url": "https://github.com/suzikuo/SideWeave/releases/download/skin-stellar-abyss-v1.0.12/stellar-abyss-1.0.12.zip.minisig",
-                        "checksum_url": "https://github.com/suzikuo/SideWeave/releases/download/skin-stellar-abyss-v1.0.12/stellar-abyss-1.0.12.zip.sha256"
-                    }
-                }
-            ]
-        }
-    ]
+                ],
+    "skins":  [
+                  {
+                      "id":  "minecraft",
+                      "name":  "像素",
+                      "description":  "方块化像素风格，包含独立配色、字体栈、界面样式和背景图。",
+                      "author":  "SideWeave",
+                      "publisher":  "sideweave",
+                      "type":  "skin",
+                      "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                      "verified":  true,
+                      "latest":  "1.0.5",
+                      "capabilities":  [
+
+                                       ],
+                      "versions":  [
+                                       {
+                                           "version":  "1.0.5",
+                                           "key_id":  "main-2026-rotation-1",
+                                           "release":  {
+                                                           "tag":  "skin-minecraft-v1.0.5",
+                                                           "asset":  "minecraft-1.0.5.zip",
+                                                           "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/skin-minecraft-v1.0.5/minecraft-1.0.5.zip",
+                                                           "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/skin-minecraft-v1.0.5/minecraft-1.0.5.zip.minisig",
+                                                           "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/skin-minecraft-v1.0.5/minecraft-1.0.5.zip.sha256"
+                                                       }
+                                       }
+                                   ]
+                  },
+                  {
+                      "id":  "stellar-abyss",
+                      "name":  "深空回响",
+                      "description":  "以星海、深空航行与全息界面为灵感的完整科幻 UI 皮肤。",
+                      "author":  "SideWeave",
+                      "publisher":  "sideweave",
+                      "type":  "skin",
+                      "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                      "verified":  true,
+                      "latest":  "1.0.12",
+                      "capabilities":  [
+
+                                       ],
+                      "versions":  [
+                                       {
+                                           "version":  "1.0.12",
+                                           "key_id":  "main-2026-rotation-1",
+                                           "release":  {
+                                                           "tag":  "skin-stellar-abyss-v1.0.12",
+                                                           "asset":  "stellar-abyss-1.0.12.zip",
+                                                           "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/skin-stellar-abyss-v1.0.12/stellar-abyss-1.0.12.zip",
+                                                           "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/skin-stellar-abyss-v1.0.12/stellar-abyss-1.0.12.zip.minisig",
+                                                           "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/skin-stellar-abyss-v1.0.12/stellar-abyss-1.0.12.zip.sha256"
+                                                       }
+                                       }
+                                   ]
+                  }
+              ]
 }
