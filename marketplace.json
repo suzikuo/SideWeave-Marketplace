@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-10-15T10:55:08Z",
+    "updated_at":  "2026-10-16T08:55:12Z",
     "plugins":  [
                     {
                         "id":  "app_launcher",
@@ -217,13 +217,13 @@
                     {
                         "id":  "screenshot",
                         "name":  "快捷截图",
-                        "description":  "桌面截图与区域录制：滚动长截图、标注、OCR、贴图、动画 WebP 与 GIF 导出",
+                        "description":  "桌面截图与区域录制：滚动长截图、标注、OCR 中文翻译、贴图、动画 WebP 与 GIF 导出",
                         "author":  "SideWeave",
                         "publisher":  "sideweave",
                         "type":  "native",
                         "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
                         "verified":  true,
-                        "latest":  "0.3.9",
+                        "latest":  "0.3.10",
                         "capabilities":  [
                                              "filesystem.write",
                                              "shortcut.global",
@@ -233,14 +233,14 @@
                                          ],
                         "versions":  [
                                          {
-                                             "version":  "0.3.9",
+                                             "version":  "0.3.10",
                                              "key_id":  "main-2026-rotation-1",
                                              "release":  {
-                                                             "tag":  "plugin-screenshot-v0.3.9",
-                                                             "asset":  "screenshot-0.3.9.zip",
-                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.9/screenshot-0.3.9.zip",
-                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.9/screenshot-0.3.9.zip.minisig",
-                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.9/screenshot-0.3.9.zip.sha256"
+                                                             "tag":  "plugin-screenshot-v0.3.10",
+                                                             "asset":  "screenshot-0.3.10.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.10/screenshot-0.3.10.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.10/screenshot-0.3.10.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.10/screenshot-0.3.10.zip.sha256"
                                                          }
                                          }
                                      ]
