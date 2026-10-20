@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-10-20T02:07:08Z",
+    "updated_at":  "2026-10-20T02:40:53Z",
     "plugins":  [
                     {
                         "id":  "app_launcher",
@@ -349,7 +349,7 @@
                         "type":  "native",
                         "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
                         "verified":  true,
-                        "latest":  "1.0.0",
+                        "latest":  "1.0.1",
                         "capabilities":  [
                                              "storage",
                                              "filesystem.read",
@@ -361,14 +361,14 @@
                                          ],
                         "versions":  [
                                          {
-                                             "version":  "1.0.0",
+                                             "version":  "1.0.1",
                                              "key_id":  "main-2026-rotation-1",
                                              "release":  {
-                                                             "tag":  "plugin-file_share-v1.0.0",
-                                                             "asset":  "file_share-1.0.0.zip",
-                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-file_share-v1.0.0/file_share-1.0.0.zip",
-                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-file_share-v1.0.0/file_share-1.0.0.zip.minisig",
-                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-file_share-v1.0.0/file_share-1.0.0.zip.sha256"
+                                                             "tag":  "plugin-file_share-v1.0.1",
+                                                             "asset":  "file_share-1.0.1.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-file_share-v1.0.1/file_share-1.0.1.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-file_share-v1.0.1/file_share-1.0.1.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-file_share-v1.0.1/file_share-1.0.1.zip.sha256"
                                                          }
                                          }
                                      ]
