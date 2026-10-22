@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-10-20T02:40:53Z",
+    "updated_at":  "2026-10-22T10:29:06Z",
     "plugins":  [
                     {
                         "id":  "app_launcher",
@@ -11,7 +11,7 @@
                         "type":  "native",
                         "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
                         "verified":  true,
-                        "latest":  "1.0.4",
+                        "latest":  "1.0.5",
                         "capabilities":  [
                                              "storage",
                                              "filesystem.read",
@@ -21,14 +21,14 @@
                                          ],
                         "versions":  [
                                          {
-                                             "version":  "1.0.4",
+                                             "version":  "1.0.5",
                                              "key_id":  "main-2026-rotation-1",
                                              "release":  {
-                                                             "tag":  "plugin-app_launcher-v1.0.4",
-                                                             "asset":  "app_launcher-1.0.4.zip",
-                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-app_launcher-v1.0.4/app_launcher-1.0.4.zip",
-                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-app_launcher-v1.0.4/app_launcher-1.0.4.zip.minisig",
-                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-app_launcher-v1.0.4/app_launcher-1.0.4.zip.sha256"
+                                                             "tag":  "plugin-app_launcher-v1.0.5",
+                                                             "asset":  "app_launcher-1.0.5.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-app_launcher-v1.0.5/app_launcher-1.0.5.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-app_launcher-v1.0.5/app_launcher-1.0.5.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-app_launcher-v1.0.5/app_launcher-1.0.5.zip.sha256"
                                                          }
                                          }
                                      ]
@@ -42,7 +42,7 @@
                         "type":  "native",
                         "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
                         "verified":  true,
-                        "latest":  "1.0.21",
+                        "latest":  "1.0.22",
                         "capabilities":  [
                                              "storage",
                                              "filesystem.read",
@@ -56,14 +56,14 @@
                                          ],
                         "versions":  [
                                          {
-                                             "version":  "1.0.21",
+                                             "version":  "1.0.22",
                                              "key_id":  "main-2026-rotation-1",
                                              "release":  {
-                                                             "tag":  "plugin-cloudflare_tunnel-v1.0.21",
-                                                             "asset":  "cloudflare_tunnel-1.0.21.zip",
-                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-cloudflare_tunnel-v1.0.21/cloudflare_tunnel-1.0.21.zip",
-                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-cloudflare_tunnel-v1.0.21/cloudflare_tunnel-1.0.21.zip.minisig",
-                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-cloudflare_tunnel-v1.0.21/cloudflare_tunnel-1.0.21.zip.sha256"
+                                                             "tag":  "plugin-cloudflare_tunnel-v1.0.22",
+                                                             "asset":  "cloudflare_tunnel-1.0.22.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-cloudflare_tunnel-v1.0.22/cloudflare_tunnel-1.0.22.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-cloudflare_tunnel-v1.0.22/cloudflare_tunnel-1.0.22.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-cloudflare_tunnel-v1.0.22/cloudflare_tunnel-1.0.22.zip.sha256"
                                                          }
                                          }
                                      ]
