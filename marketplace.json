@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-10-22T10:29:06Z",
+    "updated_at":  "2026-10-23T01:54:59Z",
     "plugins":  [
                     {
                         "id":  "app_launcher",
@@ -369,6 +369,74 @@
                                                              "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-file_share-v1.0.1/file_share-1.0.1.zip",
                                                              "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-file_share-v1.0.1/file_share-1.0.1.zip.minisig",
                                                              "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-file_share-v1.0.1/file_share-1.0.1.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "dev_connection",
+                        "name":  "开发连接台",
+                        "description":  "集中管理 SSH 会话、本地端口转发与 Cloudflare Tunnel",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.0",
+                        "capabilities":  [
+                                             "storage",
+                                             "filesystem.read",
+                                             "filesystem.write",
+                                             "filesystem.external_read",
+                                             "system.file_picker",
+                                             "system.open_external",
+                                             "process.spawn",
+                                             "network.connect",
+                                             "network.listen",
+                                             "clipboard"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.0",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-dev_connection-v1.0.0",
+                                                             "asset":  "dev_connection-1.0.0.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-dev_connection-v1.0.0/dev_connection-1.0.0.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-dev_connection-v1.0.0/dev_connection-1.0.0.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-dev_connection-v1.0.0/dev_connection-1.0.0.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "quick_access",
+                        "name":  "快捷入口",
+                        "description":  "统一管理本地应用与网页书签的快速访问入口",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "1.0.0",
+                        "capabilities":  [
+                                             "storage",
+                                             "filesystem.read",
+                                             "process.spawn",
+                                             "system.file_picker",
+                                             "system.icon",
+                                             "system.open_external"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "1.0.0",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-quick_access-v1.0.0",
+                                                             "asset":  "quick_access-1.0.0.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-quick_access-v1.0.0/quick_access-1.0.0.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-quick_access-v1.0.0/quick_access-1.0.0.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-quick_access-v1.0.0/quick_access-1.0.0.zip.sha256"
                                                          }
                                          }
                                      ]
