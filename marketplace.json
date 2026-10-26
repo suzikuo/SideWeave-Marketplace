@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-10-23T01:54:59Z",
+    "updated_at":  "2026-10-26T03:47:42Z",
     "plugins":  [
                     {
                         "id":  "app_launcher",
@@ -418,7 +418,7 @@
                         "type":  "native",
                         "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
                         "verified":  true,
-                        "latest":  "1.0.0",
+                        "latest":  "1.0.1",
                         "capabilities":  [
                                              "storage",
                                              "filesystem.read",
@@ -429,14 +429,44 @@
                                          ],
                         "versions":  [
                                          {
-                                             "version":  "1.0.0",
+                                             "version":  "1.0.1",
                                              "key_id":  "main-2026-rotation-1",
                                              "release":  {
-                                                             "tag":  "plugin-quick_access-v1.0.0",
-                                                             "asset":  "quick_access-1.0.0.zip",
-                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-quick_access-v1.0.0/quick_access-1.0.0.zip",
-                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-quick_access-v1.0.0/quick_access-1.0.0.zip.minisig",
-                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-quick_access-v1.0.0/quick_access-1.0.0.zip.sha256"
+                                                             "tag":  "plugin-quick_access-v1.0.1",
+                                                             "asset":  "quick_access-1.0.1.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-quick_access-v1.0.1/quick_access-1.0.1.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-quick_access-v1.0.1/quick_access-1.0.1.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-quick_access-v1.0.1/quick_access-1.0.1.zip.sha256"
+                                                         }
+                                         }
+                                     ]
+                    },
+                    {
+                        "id":  "ai_usage",
+                        "name":  "AI 用量",
+                        "description":  "汇总本机 AI 编程工具的 Token、估算费用、会话和订阅配额。",
+                        "author":  "SideWeave",
+                        "publisher":  "sideweave",
+                        "type":  "native",
+                        "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
+                        "verified":  true,
+                        "latest":  "0.4.10",
+                        "capabilities":  [
+                                             "filesystem.read",
+                                             "filesystem.write",
+                                             "network.connect",
+                                             "notification.desktop"
+                                         ],
+                        "versions":  [
+                                         {
+                                             "version":  "0.4.10",
+                                             "key_id":  "main-2026-rotation-1",
+                                             "release":  {
+                                                             "tag":  "plugin-ai_usage-v0.4.10",
+                                                             "asset":  "ai_usage-0.4.10.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ai_usage-v0.4.10/ai_usage-0.4.10.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ai_usage-v0.4.10/ai_usage-0.4.10.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ai_usage-v0.4.10/ai_usage-0.4.10.zip.sha256"
                                                          }
                                          }
                                      ]
