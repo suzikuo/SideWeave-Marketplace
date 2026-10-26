@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-10-26T05:50:53Z",
+    "updated_at":  "2026-10-26T07:55:19Z",
     "plugins":  [
                     {
                         "id":  "app_launcher",
@@ -450,7 +450,7 @@
                         "type":  "native",
                         "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
                         "verified":  true,
-                        "latest":  "0.4.11",
+                        "latest":  "0.4.12",
                         "capabilities":  [
                                              "filesystem.read",
                                              "filesystem.write",
@@ -459,14 +459,14 @@
                                          ],
                         "versions":  [
                                          {
-                                             "version":  "0.4.11",
+                                             "version":  "0.4.12",
                                              "key_id":  "main-2026-rotation-1",
                                              "release":  {
-                                                             "tag":  "plugin-ai_usage-v0.4.11",
-                                                             "asset":  "ai_usage-0.4.11.zip",
-                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ai_usage-v0.4.11/ai_usage-0.4.11.zip",
-                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ai_usage-v0.4.11/ai_usage-0.4.11.zip.minisig",
-                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ai_usage-v0.4.11/ai_usage-0.4.11.zip.sha256"
+                                                             "tag":  "plugin-ai_usage-v0.4.12",
+                                                             "asset":  "ai_usage-0.4.12.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ai_usage-v0.4.12/ai_usage-0.4.12.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ai_usage-v0.4.12/ai_usage-0.4.12.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-ai_usage-v0.4.12/ai_usage-0.4.12.zip.sha256"
                                                          }
                                          }
                                      ]
