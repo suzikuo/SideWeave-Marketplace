@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-10-26T09:38:07Z",
+    "updated_at":  "2026-10-28T06:47:23Z",
     "plugins":  [
                     {
                         "id":  "app_launcher",
@@ -382,7 +382,7 @@
                         "type":  "native",
                         "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
                         "verified":  true,
-                        "latest":  "1.0.0",
+                        "latest":  "1.0.1",
                         "capabilities":  [
                                              "storage",
                                              "filesystem.read",
@@ -397,14 +397,14 @@
                                          ],
                         "versions":  [
                                          {
-                                             "version":  "1.0.0",
+                                             "version":  "1.0.1",
                                              "key_id":  "main-2026-rotation-1",
                                              "release":  {
-                                                             "tag":  "plugin-dev_connection-v1.0.0",
-                                                             "asset":  "dev_connection-1.0.0.zip",
-                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-dev_connection-v1.0.0/dev_connection-1.0.0.zip",
-                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-dev_connection-v1.0.0/dev_connection-1.0.0.zip.minisig",
-                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-dev_connection-v1.0.0/dev_connection-1.0.0.zip.sha256"
+                                                             "tag":  "plugin-dev_connection-v1.0.1",
+                                                             "asset":  "dev_connection-1.0.1.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-dev_connection-v1.0.1/dev_connection-1.0.1.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-dev_connection-v1.0.1/dev_connection-1.0.1.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-dev_connection-v1.0.1/dev_connection-1.0.1.zip.sha256"
                                                          }
                                          }
                                      ]
