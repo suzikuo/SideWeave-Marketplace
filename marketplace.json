@@ -1,6 +1,6 @@
 {
     "schema_version":  1,
-    "updated_at":  "2026-10-28T06:47:23Z",
+    "updated_at":  "2026-11-06T07:41:57Z",
     "plugins":  [
                     {
                         "id":  "app_launcher",
@@ -225,7 +225,7 @@
                         "type":  "native",
                         "repository":  "https://github.com/suzikuo/SideWeave-Plugins",
                         "verified":  true,
-                        "latest":  "0.3.12",
+                        "latest":  "0.3.13",
                         "capabilities":  [
                                              "filesystem.write",
                                              "shortcut.global",
@@ -235,14 +235,14 @@
                                          ],
                         "versions":  [
                                          {
-                                             "version":  "0.3.12",
+                                             "version":  "0.3.13",
                                              "key_id":  "main-2026-rotation-1",
                                              "release":  {
-                                                             "tag":  "plugin-screenshot-v0.3.12",
-                                                             "asset":  "screenshot-0.3.12.zip",
-                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.12/screenshot-0.3.12.zip",
-                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.12/screenshot-0.3.12.zip.minisig",
-                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.12/screenshot-0.3.12.zip.sha256"
+                                                             "tag":  "plugin-screenshot-v0.3.13",
+                                                             "asset":  "screenshot-0.3.13.zip",
+                                                             "url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.13/screenshot-0.3.13.zip",
+                                                             "signature_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.13/screenshot-0.3.13.zip.minisig",
+                                                             "checksum_url":  "https://github.com/suzikuo/SideWeave-Plugins/releases/download/plugin-screenshot-v0.3.13/screenshot-0.3.13.zip.sha256"
                                                          }
                                          }
                                      ]
